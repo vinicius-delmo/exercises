@@ -1,0 +1,7 @@
+const myList = [
+                  ["Caminhonete", 5],
+                  ["SUV", 9],
+                  ["Sedan", 15],
+                  ["Hatch", 12],
+                  ["Van", 2]
+               ];
