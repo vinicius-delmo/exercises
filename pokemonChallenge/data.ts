@@ -1,4 +1,6 @@
-export interface Pokemon {
+export {Pokemon, pokemons, pokemonTypesInPtBR }
+
+interface Pokemon {
     name: string,
     type: string[],
     weight: number,
@@ -6,9 +8,7 @@ export interface Pokemon {
     id: number,
 }
 
-export type Pokemons = Pokemon[];
-
-export const pokemons: Pokemons = [
+const pokemons: Pokemon[] = [
     {
       name: "bulbasaur",
       type: ["grass", "poison"],
@@ -699,7 +699,7 @@ export const pokemons: Pokemons = [
 
 
 
-  export const pokemonTypesInPtBR: { [key: string]: string } = {
+    const pokemonTypesInPtBR: { [key: string]: string } = {
     normal: "normal",
     fire: "fogo",
     water: "água",
