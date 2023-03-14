@@ -14,11 +14,12 @@ console.log(funtionName([7, 9, 0, -2],-3)); ok
 // []*/
 
 const modifyArray = (arrayToModify, num) => {
-if (num < 0 || arrayToModify.length === 0) {
+  if (num < 0 || arrayToModify.length === 0) {
     return [];
-  } if (num === undefined){
+  }
+  if (num === undefined) {
     return arrayToModify[0];
   }
   return arrayToModify.slice(0, num);
-}
-console.log(modifyArray([7, 9, 0, -2], 3));
+};
+console.log(modifyArray([7, 9, 0, -2], 2));

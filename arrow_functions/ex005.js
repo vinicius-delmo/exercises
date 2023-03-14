@@ -1,9 +1,14 @@
-let alerts = ["Você é bem legal", "Você é inteligente", "Que bom trabalhar contigo"]
+let alerts = [
+  "Você é bem legal",
+  "Você é inteligente",
+  "Que bom trabalhar contigo",
+];
 
-// function showRandomAlert(name){    
+// function showRandomAlert(name){
 //     console.log(alerts[(Math.floor(Math.random()*alerts.length))] + `, ${name}!`)
 // }
 
-const showRandomAlert = (name) => alert(alerts[(Math.floor(Math.random()*alerts.length))] + `, ${name}!`)
+const showRandomAlert = (name) =>
+  console.log(alerts[Math.floor(Math.random() * alerts.length)] + `, ${name}!`);
 
 showRandomAlert("Maria");

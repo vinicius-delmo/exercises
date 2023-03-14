@@ -7,8 +7,8 @@
     }
     return evenNumbers;
   }*/
-  
-const getEvenNumbers = array => array.filter(num => num % 2 === 0);
-//const myArray = [1, 2, 3, 4, 5, 6];
-//const result = getEvenNumbers(myArray);
-//console.log(result);
+
+const getEvenNumbers = (array) => array.filter((num) => num % 2 === 0);
+const myArray = [1, 2, 3, 4, 5, 6];
+const result = getEvenNumbers(myArray);
+console.log(result);

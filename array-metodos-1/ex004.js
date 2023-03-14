@@ -6,7 +6,17 @@ console.log(functionaName(["cachorro", "pato", "oi", "família",
 "comer", "camping", aquarela”]));
 // ["pato", "oi", "comer"]*/
 
-const filterArray = arrayToFilter => arrayToFilter.filter(filteredWord => filteredWord.length < 6)
-    
-console.log(filterArray(["cachorro", "pato", "oi", "família",
-"comer", "camping", "aquarela"]));
+const filterArray = (arrayToFilter) =>
+  arrayToFilter.filter((filteredWord) => filteredWord.length < 6);
+
+console.log(
+  filterArray([
+    "cachorro",
+    "pato",
+    "oi",
+    "família",
+    "comer",
+    "camping",
+    "aquarela",
+  ])
+);

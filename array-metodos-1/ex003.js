@@ -6,7 +6,11 @@ Exemplo:
 console.log([1, 2, 3, 4, 5, 6, 7, 8]);
 // “123.456.78”*/
 
-const addPoint = arrayOfNumber => 
-arrayOfNumber.reduce((acc, cur, index) => index % 3 === 0 && index !== 0 ? acc + "." + cur : acc + cur, "");
+const addPoint = (arrayOfNumber) =>
+  arrayOfNumber.reduce(
+    (acc, cur, index) =>
+      index % 3 === 0 && index !== 0 ? acc + "." + cur : acc + cur,
+    ""
+  );
 
 console.log(addPoint([1, 2, 3, 4, 5, 6, 7, 8]));
