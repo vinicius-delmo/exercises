@@ -1,0 +1,28 @@
+{
+  "name": "fakestoreapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@types/jest": "^29.5.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-cli": "^29.5.0"
+  },
+  "type": "module",
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["text", "lcov"],
+    "coverageDirectory": "coverage"
+  }
+}
