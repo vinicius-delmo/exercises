@@ -1,0 +1,13 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.filha{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    
+}
